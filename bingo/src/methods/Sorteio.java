@@ -28,7 +28,7 @@ public class Sorteio {
            sorteios++;
            if(count ==25) break;
        }
-       System.out.println("Acertos: "+answers);
+       System.out.println("\nAcertos: "+answers);
        System.out.println("Foram necessários " + sorteios+" sorteios");
     }
 }
