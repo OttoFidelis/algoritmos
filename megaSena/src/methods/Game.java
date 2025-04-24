@@ -8,7 +8,10 @@ public class Game {
         Scanner tcd = new Scanner(System.in);
         int num = 0;
         int countPalpites = 0;
-
+        String asteriscos = "\n*************************************************************************************************************************\n";
+        System.out.println(asteriscos);
+        System.out.println("MEGA SENA\nJogue e ganhe milhões de reais!!!!!!\n(é tudo fictício, então não me processem se vocês ganharem o jogo e não ganharem milhões de reais)");
+        System.out.println(asteriscos);
         for (int palpites = 0; palpites < 6; palpites++) {
             System.out.println("Digite um número de 1 de 60");
             num = tcd.nextInt();
