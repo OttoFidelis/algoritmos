@@ -6,7 +6,8 @@ import java.util.List;
 
 public class Sorteio {
     public static void sortear(int[][] cartela){
-       List<Integer> numerosSortados = new ArrayList<>();
+       List<Integer> numerosSortad
+       os = new ArrayList<>();
        List<Integer> answers = new ArrayList<>();
        int count = 0;
        int sorteios = 0;
